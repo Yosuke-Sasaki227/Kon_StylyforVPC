@@ -58,6 +58,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6936303457669967557, guid: adbee752dea5a4c45b19e3b9867c3105,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a25a05dfb3161f468622d45b1a04455, type: 2}
     - target: {fileID: -2809957081556777639, guid: adbee752dea5a4c45b19e3b9867c3105,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -73,13 +78,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cha_EyeBaby
       objectReference: {fileID: 0}
+    - target: {fileID: 2338009049706023506, guid: adbee752dea5a4c45b19e3b9867c3105,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7181fda46ff5a4047b54f3629152603b, type: 2}
     - target: {fileID: 2798610029168443314, guid: adbee752dea5a4c45b19e3b9867c3105,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4a25a05dfb3161f468622d45b1a04455, type: 2}
+    - target: {fileID: 6128169133649957623, guid: adbee752dea5a4c45b19e3b9867c3105,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7f3a954cca335b047872eabd43a8b982, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: adbee752dea5a4c45b19e3b9867c3105,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8656864263360199158}
   m_SourcePrefab: {fileID: 100100000, guid: adbee752dea5a4c45b19e3b9867c3105, type: 3}
+--- !u!1 &6025709062283161270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: adbee752dea5a4c45b19e3b9867c3105,
+    type: 3}
+  m_PrefabInstance: {fileID: 6872202376253559783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8656864263360199158
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025709062283161270}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90c357c84539d89448b2a7d956207149, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
